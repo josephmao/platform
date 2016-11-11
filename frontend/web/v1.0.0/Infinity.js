@@ -1,0 +1,1 @@
+_$ES.Define("Infinity",[],function(n){"use strict";var t={},i=n.createScope({},t);return function(){t.Infinity=n.js.Number.POSITIVE_INFINITY-0}.call(t),t});

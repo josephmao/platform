@@ -1,0 +1,1 @@
+_$ES.Define("JSON",[],function(n){"use strict";var t={},i=n.createScope({},t);return function(){t.JSON=n.js.JSON}.call(t),t});

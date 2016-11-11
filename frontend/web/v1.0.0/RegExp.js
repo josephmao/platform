@@ -1,0 +1,1 @@
+_$ES.Define("RegExp",[],function(n){"use strict";var t={},i=n.createScope({},t);return function(){t.RegExp=n.js.RegExp}.call(t),t});

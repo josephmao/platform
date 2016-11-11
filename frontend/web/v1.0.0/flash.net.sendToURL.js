@@ -1,0 +1,1 @@
+_$ES.Define("flash.net::sendToURL",[],function(n){"use strict";var t={},i=n.createScope({},t);return t["flash.net::sendToURL"]=function(t){new _$ES.Loader(n.appInfo,"text").load(t)},function(){}.call(t),t});

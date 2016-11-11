@@ -1,0 +1,1 @@
+_$ES.Define("isXMLName",[],function(n){"use strict";var t={},i=n.createScope({},t);return t.isXMLName=function(n){return n=n==null?null:""+n,!0},function(){}.call(t),t});

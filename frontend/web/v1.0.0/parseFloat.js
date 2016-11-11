@@ -1,0 +1,1 @@
+_$ES.Define("parseFloat",[],function(n){"use strict";var t={},i=n.createScope({},t);return t.parseFloat=function(t){return t=t==null?null:""+t,n.js.parseFloat(t)-0},function(){}.call(t),t});

@@ -1,0 +1,1 @@
+_$ES.Define("escape",[],function(n){"use strict";var t={},i=n.createScope({},t);return t.escape=function(t){return t=t==null?null:""+t,n.castString(n.js.escape(t))},function(){}.call(t),t});

@@ -1,0 +1,1 @@
+_$ES.Define("flash.net::getClassByAlias",["ReferenceError"],function(n){"use strict";var t={},i=n.createScope({},t,"ReferenceError");return t["flash.net::getClassByAlias"]=function(t){t=t==null?null:""+t;var r=n.appInfo.typeManage.getClassByAlias(t);if(!r)throw new i.ReferenceError("");return r},function(){}.call(t),t});

@@ -1,0 +1,1 @@
+_$ES.Define("flash.net::registerClassAlias",[],function(n){"use strict";var t={},i=n.createScope({},t);return t["flash.net::registerClassAlias"]=function(t,i){if(t=t==null?null:""+t,!n.appInfo.typeManage.registerClassAlias(t,i))throw"";},function(){}.call(t),t});

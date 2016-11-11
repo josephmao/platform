@@ -1,0 +1,1 @@
+_$ES.Define("_$SYS::RenderV2REMOVED",[],function(n){"use strict";var t={},i=n.createScope({},t);return t["_$SYS::RenderV2REMOVED"]=function(i){function r(){i.call(this)}var u=n.createScope({},t);return function(){}.call(r),r},function(){t["_$SYS::RenderV2REMOVED"]=t["_$SYS::RenderV2REMOVED"](n.js.Object)}.call(t),t});

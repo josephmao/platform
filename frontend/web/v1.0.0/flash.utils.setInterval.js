@@ -1,0 +1,1 @@
+_$ES.Define("flash.utils::setInterval",[],function(n){"use strict";var t={},i=n.createScope({},t);return t["flash.utils::setInterval"]=function(t,i){for(var r=[],u=2,f=arguments.length;u<f;u++)r.push(arguments[u]);return i=+i,i<16.7&&(i=16.7),r.unshift(i),r.unshift(t),n.js.window.setInterval.apply(n.js.window,r)>>>0},function(){}.call(t),t});

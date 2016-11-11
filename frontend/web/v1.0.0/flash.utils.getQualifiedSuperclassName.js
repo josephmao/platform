@@ -1,0 +1,1 @@
+_$ES.Define("flash.utils::getQualifiedSuperclassName",[],function(n){"use strict";var t={},i=n.createScope({},t);return t["flash.utils::getQualifiedSuperclassName"]=function(t){if(t===null||t===undefined)return"null";var i=n.appInfo.typeManage.get(t);return!(i==null)&&i.extendsType?i.extendsType.fullName:null},function(){}.call(t),t});

@@ -1,0 +1,1 @@
+_$ES.Define("isFinite",[],function(n){"use strict";var t={},i=n.createScope({},t);return t.isFinite=function(t){return n.js.isFinite(t)},function(){}.call(t),t});
