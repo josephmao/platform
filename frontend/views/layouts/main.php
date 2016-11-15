@@ -14,7 +14,10 @@ AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
-<html xmlns:wb="http://open.weibo.com/wb" lang="<?= Yii::$app->language ?>">
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,15 +37,15 @@ AppAsset::register($this);
         })();
     </script>
 </head>
-<body>
+<body class="no-trans">
 <?php $this->beginBody() ?>
 
-<div class="wrap">
-    <div class="container">
+<!--<div class="wrap">-->
+<!--    <div class="container">-->
         <?= Alert::widget() ?>
         <?= $content ?>
-    </div>
-</div>
+<!--    </div>-->
+<!--</div>-->
 
 
 <footer id="footer">

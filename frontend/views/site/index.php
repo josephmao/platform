@@ -68,6 +68,15 @@ $this->title = '数据化多媒体解决方案供应商';
                                             <li><a href="#contact">联系我们</a></li>
                                         </ul>
                                     </div>
+				    <!-- third-login -->
+										<div class="third-login">
+											<a class="third-login-weixin" href="javascript:void;">
+												<i class="icon-weixin"></i>
+											</a>
+											<a class="third-login-weibo" href="javascript:void;">
+												<i class="icon-wbo"></i>
+											</a>
+										</div>
 
                                 </div>
                             </nav>

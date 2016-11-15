@@ -7,3 +7,26 @@ Created:November 2014
 License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
 File Description: Place here your custom CSS styles
 */
+
+.third-login {
+    float: right;
+}
+
+.third-login-weixin,
+.third-login-weibo {
+    display: inline-block;
+}
+
+.icon-weixin {
+    display: block !important;
+    width: 24px;
+    height: 24px;
+    background: url('../images/weixin-24.png') center no-repeat;
+}
+
+.icon-wbo {
+    display: block !important;
+    width: 24px;
+    height: 24px;
+    background: url('../images/weibo-24.png') center no-repeat;
+}

@@ -19,6 +19,8 @@ class AppAsset extends AssetBundle
         'css/custom.css',
     ];
     public $js = [
+        'jquery-1.11.0.min.js',
+        'bootstrap/js/bootstrap.js',
         'plugins/modernizr.js',
         'plugins/isotope/isotope.pkgd.min.js',
         'plugins/jquery.backstretch.min.js',
@@ -27,7 +29,8 @@ class AppAsset extends AssetBundle
         'js/custom.js',
     ];
     public $depends = [
-        'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
+//        'yii\web\YiiAsset',
+//	'yii\bootstrap\BootstrapPluginAsset',
+        //'yii\bootstrap\BootstrapAsset',
     ];
 }

@@ -13,8 +13,27 @@ class GzczController extends Controller
      * Renders the index view for the module
      * @return string
      */
-    public function actionIndex()
+    public function actionConnect()
     {
-        return $this->render('index');
+        $userAgent = isset($_SERVER['HTTP_USER_AGENT'])?$_SERVER['HTTP_USER_AGENT']:'';
+        $userIp = Yii::$app->request->getUserIP();
+
+        var_dump($userIp,$userAgent);exit;
+    }
+
+    public function actionCallback(){
+
+    }
+
+    public function actionVoteList(){
+
+    }
+
+    public function actionVotes(){
+
+    }
+
+    public function actionShare(){
+
     }
 }
